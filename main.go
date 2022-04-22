@@ -231,7 +231,7 @@ func GetTaxiTrips(db *sql.DB) {
 	// Get your geocoder.ApiKey from here :
 	// https://developers.google.com/maps/documentation/geocoding/get-api-key?authuser=2
 
-	geocoder.ApiKey = "AIzaSyAC42KyOuBCLA-jL55jujF71zCEJpmycL4"
+	geocoder.ApiKey = "AIzaSyBuV-Zp2fZW_5nzt0uyQZkYz6SJRRzI-ao"
 
 	drop_table := `drop table if exists taxi_trips`
 	_, err := db.Exec(drop_table)
